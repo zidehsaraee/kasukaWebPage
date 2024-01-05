@@ -1,0 +1,32 @@
+.footer-container {
+  background-color: #151515;
+}
+.footer-address-wrapper p {
+  margin-bottom: 0;
+}
+.footer-nav-wrapper .nav-link:hover {
+  color: #ffc451;
+  transition: all 500ms;
+}
+.footer-nav-wrapper .nav-link i {
+  color: #ffc451;
+  font-size: 12px;
+  margin-right: 5px;
+}
+.footer-nav-wrapper .nav-link {
+  color: #fff;
+  padding: 0;
+  margin-top: 15px;
+  width: fit-content;
+}
+.footer-nav-wrapper{
+  display: flex;
+  flex-direction: column;
+}
+.footer-form-btn {
+  background-color: #ffc451 !important;
+  border: none !important;
+  color: #000 !important;
+}
+
+

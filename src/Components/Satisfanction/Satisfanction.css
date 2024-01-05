@@ -1,0 +1,20 @@
+.satisfanction-container {
+  margin-top: 50px;
+}
+
+.satisfanction-image img {
+  width: 100%;
+  height: 500px;
+}
+.satisfanction-container .content h3 {
+  font-weight: bold;
+}
+.satisfanction-container .content p {
+  font-size: 20px;
+}
+
+@media (max-width: 991.98px) {
+  .satisfanction-container .content {
+    margin-top: 30px !important;
+  }
+}

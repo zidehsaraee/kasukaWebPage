@@ -1,0 +1,11 @@
+.copy-right-container {
+  background-color: #000;
+  color: #fff;
+}
+.copy-right-container p {
+  margin: 0;
+  font-size: 14px;
+}
+.copy-right-container p span {
+  color: #ffc451;
+}

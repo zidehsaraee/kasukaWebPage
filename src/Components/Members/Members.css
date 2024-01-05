@@ -1,0 +1,36 @@
+.members-container {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../../../public/images/Members/bg-members.jpg);
+  height: 400px;
+  margin-top: 50px;
+  padding: 30px;
+}
+.member-content-wrapper{
+    width: 70%;
+    margin: 0 auto;
+}
+.member-image {
+  width: 100px;
+}
+.member-name {
+  font-size: 28px !important;
+}
+.member-role {
+  color: #aaaaaa !important;
+}
+.member-text{
+    text-align: start;
+    line-height: normal;
+    font-size: 18px;
+}
+.member-text i.normal{
+    margin-right: 10px;
+}
+.member-text i{
+    font-size: 30px;
+    color: #aaaaaa
+}
+.member-text i.rotate{
+    transform:rotate(90deg);
+    margin-left: 10px;
+}

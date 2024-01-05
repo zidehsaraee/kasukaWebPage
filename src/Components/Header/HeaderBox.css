@@ -1,0 +1,30 @@
+.header-box {
+  border: 1px solid #fff;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+.header-box:hover {
+  border: 1px solid #ffc451;
+  transition: all 500ms;
+}
+.header-box a {
+  text-decoration: none;
+}
+.header-box p:hover{
+  color: #ffc451;
+  transition: all 500ms;
+}
+
+.header-box span {
+  color: #ffc451;
+  font-size: 40px;
+}
+.header-box p {
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+}

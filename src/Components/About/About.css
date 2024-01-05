@@ -1,0 +1,15 @@
+.about-container {
+  margin-top: 50px;
+}
+.about-text h3 {
+  font-size: 36px;
+  margin-bottom: 15px;
+}
+.about-text p {
+  text-align: justify;
+  line-height: 1.6;
+}
+.about-image img {
+  width: 100%;
+  height: auto;
+}

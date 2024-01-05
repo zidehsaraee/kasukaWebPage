@@ -1,0 +1,36 @@
+.header-container {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../../../public/images/Header/hero-bg.jpg);
+  height: 100vh;
+}
+
+.title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #fff;
+  margin: 70px 0 !important;
+}
+.title span {
+  color: #ffc451;
+  font-size: 50px;
+  font-weight: bold;
+}
+.title p {
+  font-size: 24px;
+}
+.headerBox-wrapper{
+  width: 80%;
+  margin: 0 auto !important;
+}
+
+
+
+@media (max-width: 991.98px) {
+  .header-container{
+    height: auto;
+  }
+  .headerBox-wrapper{
+    width: 100%;
+  }
+}

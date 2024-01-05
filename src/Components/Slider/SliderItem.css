@@ -1,0 +1,9 @@
+.slider-item img {
+  width: 90%;
+  margin-top: 50px;
+  opacity: 0.1;
+}
+.slider-item img:hover {
+  opacity: 1;
+  transition: all 500ms;
+}

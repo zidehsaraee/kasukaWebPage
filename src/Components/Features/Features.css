@@ -1,0 +1,15 @@
+.features-container {
+  margin-top: 50px;
+}
+
+.feature-image img{
+    width: 100%;
+}
+
+
+
+@media (max-width: 991.98px) { 
+    .features-wrapper{
+        margin-top: 30px !important;
+    }
+ }

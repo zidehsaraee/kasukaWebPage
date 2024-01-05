@@ -1,0 +1,19 @@
+.innovation-container{
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../../../public/images/Innovation/innovation.jpg);
+    height: 180px;
+    margin-top: 30px;
+}
+.innovation-container .card .btn{
+    background-color: transparent !important;
+    padding: 10px 20px;
+}
+.innovation-container .card .btn:hover{
+    background-color: #ffc451 !important;
+    color: rgba(0, 0, 0, 0.8) !important;
+    transition: all 500ms !important;
+    border:none ;
+}
+.innovation-container .card-title{
+    font-size: 28px !important;
+}

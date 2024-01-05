@@ -1,0 +1,13 @@
+.social-media-wrapper i {
+  color: #fff;
+  background-color: #292929;
+  font-size: 24px;
+  padding: 5px 10px;
+  border-radius: 5px;
+  margin: 5px;
+}
+.social-media-wrapper i:hover {
+  background-color: #ffc451;
+  color: #000;
+  transition: all 500ms;
+}
