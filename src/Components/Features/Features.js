@@ -1,20 +1,24 @@
 import React from "react";
 import "./Features.css";
-// import FeaturesItem from "./FeaturesItem";
+import AOS from 'aos';
 import Introduce from "../introduceHelper/Introduce";
 import { Container, Row, Col } from "react-bootstrap";
 
 export default function Features() {
+  AOS.init({
+    duration: 2000,
+  });
   return (
     <Container className="features-container">
       <Row>
-        <Col lg={6} sm={12} className="feature-image">
-          <img src="./images/Features/feature1.jpg" alt="" />
+        <Col lg={6} sm={12} className="feature-image" data-aos="zoom-in-right">
+          <img src={process.env.PUBLIC_URL + "/images/Features/feature1.jpg"} alt="" />
         </Col>
         <Col
           lg={6}
           sm={12}
           className="d-flex flex-column justify-content-between features-wrapper"
+          data-aos="zoom-out"
         >
           <Introduce
           classStyle="icon-out"

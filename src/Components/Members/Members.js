@@ -1,16 +1,19 @@
 import React from "react";
 import "./Members.css";
-import { Container, Row, Col, Button, Card, Image } from "react-bootstrap";
-
+import { Container, Row, Col, Card, Image } from "react-bootstrap";
+import AOS from "aos";
 export default function Members() {
+  AOS.init({
+    duration: 2000,
+  });
   return (
     <Container fluid className="members-container">
       <Row>
-        <Col>
+        <Col data-aos="zoom-in-up" data-aos-delay="200">
           <Card className="bg-dark text-white text-center">
             <Card.ImgOverlay className="member-content-wrapper">
               <Image
-                src="./images/Members/Member-1.jpg"
+                src={process.env.PUBLIC_URL + "/images/Members/Member-1.jpg"}
                 className="member-image"
                 roundedCircle
               />

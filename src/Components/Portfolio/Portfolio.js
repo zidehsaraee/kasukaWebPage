@@ -1,40 +1,30 @@
 import React from "react";
 import { Container, Row, Col, Image } from "react-bootstrap";
+import { portfoliosImg } from "../../datas";
 import "./Portfolio.css";
+import AOS from "aos";
 
 export default function Portfolio() {
+  AOS.init({
+    duration: 2000,
+  });
+
   return (
     <Container className="portfolio-container" id="Portfolio">
-      <h2>Portfolios</h2>
-      <p className="portfolio-title">See our porfolios</p>
-      <Row>
-        <Col lg={4} md={6} sm={12}>
-          <Image src="./images/Portfolio/portfolio-1.jpg" thumbnail />
-        </Col>
-        <Col lg={4} md={6} sm={12}>
-          <Image src="./images/Portfolio/portfolio-2.jpg" thumbnail />
-        </Col>
-        <Col lg={4} md={6} sm={12}>
-          <Image src="./images/Portfolio/portfolio-3.jpg" thumbnail />
-        </Col>
-        <Col lg={4} md={6} sm={12}>
-          <Image src="./images/Portfolio/portfolio-4.jpg" thumbnail />
-        </Col>
-        <Col lg={4} md={6} sm={12}>
-          <Image src="./images/Portfolio/portfolio-5.jpg" thumbnail />
-        </Col>
-        <Col lg={4} md={6} sm={12}>
-          <Image src="./images/Portfolio/portfolio-6.jpg" thumbnail />
-        </Col>
-        <Col lg={4} md={6} sm={12}>
-          <Image src="./images/Portfolio/portfolio-7.jpg" thumbnail />
-        </Col>
-        <Col lg={4} md={6} sm={12}>
-          <Image src="./images/Portfolio/portfolio-8.jpg" thumbnail />
-        </Col>
-        <Col lg={4} md={6} sm={12}>
-          <Image src="./images/Portfolio/portfolio-9.jpg" thumbnail />
-        </Col>
+      <div data-aos="zoom-in-up">
+        <h2>Portfolios</h2>
+        <p className="portfolio-title">See our portfolios</p>
+      </div>
+      <Row className="portfolioGallery">
+        {portfoliosImg.map((portfolio) => (
+          <Col key={portfolio.id} lg={4} md={6} sm={12} data-aos="zoom-in-up">
+            <Image
+              className="galleryImg"
+              src={process.env.PUBLIC_URL + portfolio.imgPath}
+              thumbnail
+            />
+          </Col>
+        ))}
       </Row>
     </Container>
   );

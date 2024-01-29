@@ -1,4 +1,5 @@
 import "./App.css";
+import 'aos/dist/aos.css';
 import Header from "./Components/Header/Header";
 import About from "./Components/About/About";
 import Slider from "./Components/Slider/Slider";

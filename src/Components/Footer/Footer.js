@@ -21,7 +21,7 @@ export default function Footer() {
             <Navbar.Brand href="#home">
               <h1 className="logo">
                 <a href="#">
-                  <img src="./images/Header/logo.png" alt="LOGO" />
+                  <img src={process.env.PUBLIC_URL + "/images/Header/logo.png"} alt="LOGO" />
                   KASUKA
                 </a>
               </h1>
@@ -42,21 +42,21 @@ export default function Footer() {
             <div className="text-white footer-list-wrapper">
               <h4>Title</h4>
               <Nav className="me-auto mb-4 footer-nav-wrapper">
-                <Nav.Link href="#home">
+                <Nav.Link href="#">
                   <i class="bi bi-chevron-right"></i>Lorem Ipsom 1
                 </Nav.Link>
-                <Nav.Link href="#About">
+                <Nav.Link href="#">
                   <i class="bi bi-chevron-right"></i>Lorem Ipsom 2
                 </Nav.Link>
-                <Nav.Link href="#Services">
+                <Nav.Link href="#">
                   <i class="bi bi-chevron-right"></i>Lorem Ipsom 3
                 </Nav.Link>
-                <Nav.Link href="#Portfolio">
+                <Nav.Link href="#">
                   <i class="bi bi-chevron-right"></i>Lorem Ipsom 4
                 </Nav.Link>
-                <Nav.Link href="#Team">
+                <Nav.Link href="#">
                   <i class="bi bi-chevron-right"></i>Lorem Ipsom 5                </Nav.Link>
-                <Nav.Link href="#ContactUs">
+                <Nav.Link href="#">
                   <i class="bi bi-chevron-right"></i>Lorem Ipsom 6
                 </Nav.Link>
               </Nav>

@@ -2,13 +2,19 @@ import React from "react";
 import "./Services.css";
 import ServiceItem from "./ServiceItem";
 import { Container, Row, Col } from "react-bootstrap";
+import AOS from "aos";
 
 export default function Services() {
+  AOS.init({
+    duration: 2000,
+  });
   return (
     <Container className="services-container" id="Services">
-      <h2>Services</h2>
-      <p className="services-title">See our services</p>
-      <Row lg={3} md={2} sm={1} xs={1}>
+      <div data-aos="fade-up">
+        <h2>Services</h2>
+        <p className="services-title">See our services</p>
+      </div>
+      <Row lg={3} md={2} sm={1} xs={1} data-aos="zoom-in">
         <Col>
           <ServiceItem
             icon="acute"
