@@ -13,21 +13,25 @@ export default function About() {
         <Col className="about-text" data-aos="zoom-in-right">
           <h3>Our Company</h3>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce
-            sollicitudin est vitae nulla tincidunt accumsan. Proin id lobortis
-            mauris. Vestibulum placerat ipsum diam, ac varius sapien tempor
-            viverra. Nam quis ex ac odio sodales maximus. Pellentesque vel arcu
-            et sapien consectetur tempus ut ut dolor. Ut vitae nulla id felis
-            condimentum rhoncus. Proin dictum, lacus vitae gravida imperdiet,
-            odio mi faucibus est, sed malesuada tortor nulla vel dolor. Integer
-            et justo sodales, egestas lectus vitae, dictum augue. Praesent
-            commodo pharetra tortor eu ornare. Proin tristique tincidunt ligula,
-            sed congue felis ultricies a. Ut dui felis, vestibulum non dui eu,
-            porttitor facilisis urna. Sed sagittis nulla non est placerat
-            ultricies. Quisque aliquam vulputate nisi quis eleifend. Lorem ipsum
-            dolor sit amet, consectetur adipiscing elit. Fusce sollicitudin est
-            vitae nulla tincidunt accumsan. Proin id lobortis mauris. Vestibulum
-            placerat ipsum diam, ac varius sapien tempor viverra.
+            Welcome to our company, your trusted partner in the ever-evolving
+            world of marketing. Established in 2014, we have been on a mission
+            to redefine the way brands connect with their audiences and drive
+            business growth. With a relentless passion for innovation and a
+            commitment to excellence, we have emerged as a leading force in the
+            industry, delivering tailored marketing solutions that resonate with
+            consumers and deliver measurable results. At our company, we
+            believe in the power of collaboration, creativity, and strategic
+            thinking to unlock the full potential of every brand we work with.
+            Our team of seasoned professionals brings together a wealth of
+            experience and expertise across various disciplines, allowing us to
+            offer a comprehensive suite of services tailored to meet the unique
+            needs of each client. From brand development and digital marketing
+            to content creation and social media management, we offer end-to-end
+            solutions designed to elevate your brand and drive meaningful
+            engagement. By combining cutting-edge technology with
+            tried-and-tested strategies, we help our clients navigate the
+            complexities of the digital landscape and stay ahead of the
+            competition.
           </p>
         </Col>
         <Col className="about-image" data-aos="zoom-out">

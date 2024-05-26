@@ -23,26 +23,26 @@ export default function Features() {
           <Introduce
           classStyle="icon-out"
             icon="perm_media"
-            title="Lorem ipsum 1"
-            text="Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+            title="Creative Design"
+            text="Innovative and eye-catching designs that captivate your audience."
           />
           <Introduce
           classStyle="icon-out"
             icon="description"
-            title="Lorem ipsum 2"
-            text="Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+            title="Detailed Analytics"
+            text="Comprehensive analytics to track performance and optimize strategies."
           />
           <Introduce
           classStyle="icon-out"
             icon="conveyor_belt"
-            title="Lorem ipsum 3"
-            text="Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+            title="Efficient Workflow"
+            text="Streamlined processes to ensure timely and efficient project delivery."
           />
           <Introduce
           classStyle="icon-out"
             icon="pallet"
-            title="Lorem ipsum 4"
-            text="Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+            title="Scalable Solutions"
+            text="Flexible and scalable solutions tailored to your business needs."
           />
         </Col>
       </Row>

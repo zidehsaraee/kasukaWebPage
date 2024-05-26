@@ -12,12 +12,7 @@ export default function Satisfanction() {
   return (
     <Container className="satisfanction-container">
       <Row>
-        <Col
-          lg={6}
-          sm={12}
-          className="satisfanction-image"
-          data-aos="zoom-out"
-        >
+        <Col lg={6} sm={12} className="satisfanction-image" data-aos="zoom-out">
           <img
             src={
               process.env.PUBLIC_URL + "/images/Satisfanction/satisfanction.jpg"
@@ -33,34 +28,35 @@ export default function Satisfanction() {
           <div className="content">
             <h3>Customers satisfanction</h3>
             <p>
-              It is a long established fact that a reader will be distracted by
-              the readable content of a page when looking at its layout
+              Customer satisfaction is our top priority, driving every decision
+              we make. We are committed to delivering exceptional service and
+              exceeding your expectations at every turn.
             </p>
           </div>
 
           <Introduce
             classStyle="icon-out"
             icon="schedule"
-            title="35"
-            text="Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+            title="Timely Service"
+            text="Prompt and timely service for all customer inquiries."
           />
           <Introduce
             classStyle="icon-out"
             icon="verified"
-            title="85"
-            text="Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+            title="Quality Assurance"
+            text="High standards of quality and verified excellence."
           />
           <Introduce
             classStyle="icon-out"
             icon="sentiment_satisfied"
-            title="65"
-            text="Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+            title="Client Satisfaction"
+            text="Consistently high satisfaction rates among clients."
           />
           <Introduce
             classStyle="icon-out"
             icon="news"
-            title="20"
-            text="Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+            title="Transparent Updates"
+            text="Regular updates and transparent communication."
           />
         </Col>
       </Row>

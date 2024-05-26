@@ -4,7 +4,7 @@ import { Container, Row, Col, Button, Card } from "react-bootstrap";
 import Aos from "aos";
 
 export default function Innovation() {
-  Aos.init({duration:2000,})
+  Aos.init({ duration: 2000 });
   return (
     <Container fluid className="innovation-container">
       <Row>
@@ -13,8 +13,8 @@ export default function Innovation() {
             <Card.ImgOverlay>
               <Card.Title>Innovation</Card.Title>
               <Card.Text>
-                This is a wider card with supporting text below as a natural
-                lead-in to additional content. 
+                Innovation is at the heart of everything we do, driving us to
+                push boundaries and pioneer new approaches in marketing.
               </Card.Text>
               <Button variant="outline-light">Innovation for action</Button>
             </Card.ImgOverlay>

@@ -21,9 +21,10 @@ export default function Members() {
               <Card.Title className="member-role">Manager</Card.Title>
               <Card.Text className="member-text">
                 <i class="bi bi-quote normal"></i>
-                This is a wider card with supporting text below as a natural
-                lead-in to additional content.This is a wider card with
-                supporting text below as a natural lead-in to additional content
+                Sara's expertise in marketing strategies ensures our clients'
+                success in every campaign. Her analytical skills and creative
+                approach allow her to develop and execute marketing plans that
+                deliver outstanding results.
                 <i class="bi bi-quote rotate"></i>
               </Card.Text>
             </Card.ImgOverlay>

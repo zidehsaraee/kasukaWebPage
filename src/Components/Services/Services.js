@@ -18,43 +18,43 @@ export default function Services() {
         <Col>
           <ServiceItem
             icon="acute"
-            title="Service 1"
-            text="It is a long established fact that a reader will be distracted by the readable content "
+            title="Digital Strategy"
+            text="Tailored digital strategies crafted to maximize your online presence and drive meaningful engagement with your target audience."
           />
         </Col>
         <Col>
           <ServiceItem
             icon="sports_basketball"
-            title="Service 2"
-            text="It is a long established fact that a reader will be distracted by the readable content "
+            title="Content Creation"
+            text="Compelling content designed to captivate your audience and convey your brand's message with creativity and authenticity."
           />
         </Col>
         <Col>
           <ServiceItem
             icon="public"
-            title="Service 3"
-            text="It is a long established fact that a reader will be distracted by the readable content "
+            title="Social Media Management"
+            text="Strategic social media management to amplify your brand's voice, and cultivate meaningful connections."
           />
         </Col>
         <Col>
           <ServiceItem
             icon="live_tv"
-            title="Service 4"
-            text="It is a long established fact that a reader will be distracted by the readable content "
+            title="SEO Optimization"
+            text="Comprehensive SEO solutions to improve your website's visibility, increase organic traffic, and enhance your online search presence."
           />
         </Col>
         <Col>
           <ServiceItem
             icon="article"
-            title="Service 5"
-            text="It is a long established fact that a reader will be distracted by the readable content "
+            title="Email Marketing"
+            text="Targeted email campaigns designed to build customer relationships, and drive conversions with personalized content and automation."
           />
         </Col>
         <Col>
           <ServiceItem
             icon="account_balance"
-            title="Service 6"
-            text="It is a long established fact that a reader will be distracted by the readable content "
+            title="Analytics & Reporting"
+            text="Actionable insights and in-depth analytics to measure ROI, and optimize marketing efforts for continuous improvement."
           />
         </Col>
       </Row>
