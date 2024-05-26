@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/kasukaWebPage/static/css/main.ca85f770.css",
-    "main.js": "/kasukaWebPage/static/js/main.7f3f6a30.js",
+    "main.js": "/kasukaWebPage/static/js/main.2f79261c.js",
     "static/media/bg-members.jpg": "/kasukaWebPage/static/media/bg-members.2cedb539c554cb13a1b6.jpg",
     "static/media/innovation.jpg": "/kasukaWebPage/static/media/innovation.63b483a22e14db81b62a.jpg",
     "static/media/hero-bg.jpg": "/kasukaWebPage/static/media/hero-bg.fa6c455cbec2a3f793f9.jpg",
@@ -9,10 +9,10 @@
     "static/media/bootstrap-icons.woff2?": "/kasukaWebPage/static/media/bootstrap-icons.b7bcc075b395c14ce8c2.woff2",
     "index.html": "/kasukaWebPage/index.html",
     "main.ca85f770.css.map": "/kasukaWebPage/static/css/main.ca85f770.css.map",
-    "main.7f3f6a30.js.map": "/kasukaWebPage/static/js/main.7f3f6a30.js.map"
+    "main.2f79261c.js.map": "/kasukaWebPage/static/js/main.2f79261c.js.map"
   },
   "entrypoints": [
     "static/css/main.ca85f770.css",
-    "static/js/main.7f3f6a30.js"
+    "static/js/main.2f79261c.js"
   ]
 }
